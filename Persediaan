@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Persediaan Barang</title>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e6f7ff, #fff8dc); /* Gradien biru - putih - cream */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.company-name {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0074d9; /* Warna biru */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-align: center;
+    color: #0056b3; /* Warna biru lebih tua */
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus {
+    border-color: #0074d9; /* Highlight saat input difokuskan */
+    outline: none;
+}
+
+form button {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #0074d9, #0056b3); /* Gradien biru */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+form button:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+    background: linear-gradient(135deg, #0056b3, #0074d9); /* Gradien berubah */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background: linear-gradient(135deg, #0074d9, #0056b3); /* Gradien biru */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f0f8ff; /* Warna biru muda saat hover */
+}
+
+.actions button {
+    margin-right: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.actions .edit {
+    background: linear-gradient(135deg, #ffc107, #ff8c00); /* Gradien kuning ke oranye */
+    color: black;
+}
+
+.actions .delete {
+    background: linear-gradient(135deg, #dc3545, #b02a37); /* Gradien merah tua */
+    color: white;
+}
+
+.actions button:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Nama Perusahaan -->
+    <div class="company-name">PT ABC</div>
+
+    <!-- Judul Halaman -->
+    <h1>Persediaan Barang</h1>
+
+    <!-- Form untuk mencari barang -->
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Cari nama barang..." />
+        <button type="submit">Cari</button>
+    </form>
+
+    <!-- Tabel untuk menampilkan barang masuk -->
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama Barang</th>
+                <th>Jumlah</th>
+                <th>Tanggal Masuk</th>
+                <th>Status</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Contoh data barang masuk -->
+            <tr>
+                <td>1</td>
+                <td>Donat</td>
+                <td>5</td>
+                <td>2025-01-01</td>
+                <td>Tersedia</td>
+                <td class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Gula</td>
+                <td>5</td>
+                <td>2025-01-05</td>
+                <td>Tersedia</td>
+                <td class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tepung</td>
+                <td>5</td>
+                <td>2025-01-10</td>
+                <td>Tersedia</td>
+                <td class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Hapus</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
