@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Universitas Diponegoro</title>
+<style>
+
+/* Global Styles */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: linear-gradient(135deg, #fff, #e6f7ff, #ffe6f2); /* Gradien putih - biru - cream */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.login-container {
+background-color: white;
+width: 400px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.logo img {
+width: 150px;
+height: auto;
+}
+
+.title {
+text-align: center;
+font-size: 24px;
+color: #00bcd4; /* Biru muda (cyan) */
+margin-bottom: 10px;
+}
+
+.subtitle {
+text-align: center;
+font-size: 18px;
+color: #333;
+margin-bottom: 30px;
+}
+
+.input-group {
+position: relative;
+margin-bottom: 20px;
+}
+
+.input-group input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+.input-group i {
+position: absolute;
+top: 50%;
+left: 10px;
+transform: translateY(-50%);
+color: #aaa;
+}
+
+.btn {
+display: block;
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+background-color: #00bcd4; /* Biru muda (cyan) */
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #0097a7; /* Biru muda lebih tua */
+}
+
+.btn-danger {
+background-color: #ff8c00; /* Oranye tua */
+color: white;
+}
+
+.btn-danger:hover {
+background-color: #ff6347; /* Oranye lebih tua */
+}
+
+.forgot-password {
+text-align: center;
+margin-top: 20px;
+}
+
+.forgot-password a {
+color: #00bcd4; /* Biru muda (cyan) */
+text-decoration: underline;
+}
+
+.register-link {
+text-align: center;
+margin-top: 20px;
+color: #333;
+}
+
+.register-link a {
+color: #00bcd4; /* Biru muda (cyan) */
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="login-container">
+<div class="logo">
+<img src="https://via.placeholder.com/150x150?text=Logo+UNDIP"
+alt="Universitas Diponegoro Logo">
+</div>
+<h2 class="title">Single Sign On (SSO)</h2>
+<p class="subtitle">Universitas Diponegoro</p>
+<form>
+<!-- Input NIM/NIP/Username -->
+<div class="input-group">
+<i class="fas fa-user"></i>
+<input type="text" placeholder="NIM/NIP/username/e-mail official Undip"
+required>
+</div>
+
+<!-- Login Button -->
+<button class="btn btn-primary"><i class="fas fa-lock"></i> LOGIN</button>
+
+<!-- Reset Password Button -->
+<button class="btn btn-danger"><i class="fas fa-key"></i> Reset
+Password</button>
+
+<!-- Forgot Password Link -->
+<div class="forgot-password">
+Belum memiliki akun?
+<a href="#">Daftar sekarang!</a>
+</div>
+
+<!-- Alumni Registration Link -->
+<div class="register-link">
+<a href="#">Pendaftaran alumni klik disini</a>
+</div>
+</form>
+</div>
+
+</body>
+</html>
