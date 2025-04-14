@@ -1,0 +1,709 @@
+Laporan Arus Kas
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laporan Arus Kas PT JAYA ANUGERAH</title>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Warna latar belakang lembut */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0074d9; /* Warna biru */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.report-title {
+    text-align: center;
+    font-size: 24px;
+    color: #0056b3; /* Warna biru lebih tua */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0074d9; /* Gradien biru */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f0f8ff; /* Warna biru muda saat hover */
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #e6f7ff; /* Warna biru muda */
+    color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Nama Perusahaan -->
+    <div class="company-name">PT JAYA ANUGERAH</div>
+
+    <!-- Judul Laporan -->
+    <div class="report-title">Laporan Arus Kas<br>Periode 31 Desember 2024</div>
+
+    <!-- Tabel Laporan Arus Kas -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Uraian</th>
+                <th>Jumlah (Rp)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Arus Kas dari Aktivitas Operasi -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Arus Kas dari Aktivitas Operasi</td>
+            </tr>
+            <tr>
+                <td>Penerimaan dari Pelanggan</td>
+                <td></td>
+                <td>500,000,000</td>
+            </tr>
+            <tr>
+                <td>Pembayaran kepada Pemasok</td>
+                <td></td>
+                <td>(300,000,000)</td>
+            </tr>
+            <tr>
+                <td>Pembayaran Beban Operasional</td>
+                <td></td>
+                <td>(50,000,000)</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">Total Arus Kas dari Aktivitas Operasi</td>
+                <td>150,000,000</td>
+            </tr>
+
+            <!-- Arus Kas dari Aktivitas Investasi -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Arus Kas dari Aktivitas Investasi</td>
+            </tr>
+            <tr>
+                <td>Pembelian Aset Tetap</td>
+                <td></td>
+                <td>(100,000,000)</td>
+            </tr>
+            <tr>
+                <td>Penjualan Investasi</td>
+                <td></td>
+                <td>50,000,000</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">Total Arus Kas dari Aktivitas Investasi</td>
+                <td>(50,000,000)</td>
+            </tr>
+
+            <!-- Arus Kas dari Aktivitas Pendanaan -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Arus Kas dari Aktivitas Pendanaan</td>
+            </tr>
+            <tr>
+                <td>Penerbitan Saham</td>
+                <td></td>
+                <td>200,000,000</td>
+            </tr>
+            <tr>
+                <td>Pembayaran Dividen</td>
+                <td></td>
+                <td>(50,000,000)</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">Total Arus Kas dari Aktivitas Pendanaan</td>
+                <td>150,000,000</td>
+            </tr>
+
+            <!-- Total Arus Kas Bersih -->
+            <tr class="total-row">
+                <td colspan="2">Total Arus Kas Bersih</td>
+                <td>250,000,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        Laporan ini disusun sesuai dengan standar akuntansi keuangan yang berlaku.
+    </div>
+</div>
+</body>
+</html>
+
+Laporan Laba Rugi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laporan Laba Rugi PT JAYA ANUGERAH</title>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Warna latar belakang lembut */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0074d9; /* Warna biru */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.report-title {
+    text-align: center;
+    font-size: 24px;
+    color: #0056b3; /* Warna biru lebih tua */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0074d9; /* Gradien biru */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f0f8ff; /* Warna biru muda saat hover */
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #e6f7ff; /* Warna biru muda */
+    color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Nama Perusahaan -->
+    <div class="company-name">PT JAYA ANUGERAH</div>
+
+    <!-- Judul Laporan -->
+    <div class="report-title">Laporan Laba Rugi<br>Periode 31 Desember 2024</div>
+
+    <!-- Tabel Laporan Laba Rugi -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Uraian</th>
+                <th>Jumlah (Rp)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Pendapatan -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Pendapatan</td>
+            </tr>
+            <tr>
+                <td>Pendapatan Penjualan</td>
+                <td></td>
+                <td>1,000,000,000</td>
+            </tr>
+            <tr>
+                <td>Pendapatan Lain-lain</td>
+                <td></td>
+                <td>50,000,000</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">Total Pendapatan</td>
+                <td>1,050,000,000</td>
+            </tr>
+
+            <!-- Beban Operasional -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Beban Operasional</td>
+            </tr>
+            <tr>
+                <td>Harga Pokok Penjualan (HPP)</td>
+                <td></td>
+                <td>(600,000,000)</td>
+            </tr>
+            <tr>
+                <td>Beban Operasional</td>
+                <td></td>
+                <td>(200,000,000)</td>
+            </tr>
+            <tr>
+                <td>Beban Administrasi</td>
+                <td></td>
+                <td>(50,000,000)</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">Total Beban Operasional</td>
+                <td>(850,000,000)</td>
+            </tr>
+
+            <!-- Laba Operasional -->
+            <tr class="total-row">
+                <td colspan="2">Laba Operasional</td>
+                <td>200,000,000</td>
+            </tr>
+
+            <!-- Beban Lain-lain -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Beban Lain-lain</td>
+            </tr>
+            <tr>
+                <td>Beban Bunga</td>
+                <td></td>
+                <td>(20,000,000)</td>
+            </tr>
+            <tr>
+                <td>Pajak Penghasilan</td>
+                <td></td>
+                <td>(30,000,000)</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="2">Total Beban Lain-lain</td>
+                <td>(50,000,000)</td>
+            </tr>
+
+            <!-- Laba Bersih -->
+            <tr class="total-row">
+                <td colspan="2">Laba Bersih</td>
+                <td>150,000,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        Laporan ini disusun sesuai dengan standar akuntansi keuangan yang berlaku.
+    </div>
+</div>
+</body>
+</html>
+
+Laporan Perubahan Ekuitas
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laporan Perubahan Ekuitas PT JAYA ANUGERAH</title>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Warna latar belakang lembut */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0074d9; /* Warna biru */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.report-title {
+    text-align: center;
+    font-size: 24px;
+    color: #0056b3; /* Warna biru lebih tua */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0074d9; /* Gradien biru */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f0f8ff; /* Warna biru muda saat hover */
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #e6f7ff; /* Warna biru muda */
+    color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Nama Perusahaan -->
+    <div class="company-name">PT JAYA ANUGERAH</div>
+
+    <!-- Judul Laporan -->
+    <div class="report-title">Laporan Perubahan Ekuitas<br>Periode 31 Desember 2024</div>
+
+    <!-- Tabel Laporan Perubahan Ekuitas -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Uraian</th>
+                <th>Jumlah (Rp)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Modal Awal -->
+            <tr>
+                <td>Modal Awal</td>
+                <td></td>
+                <td>500,000,000</td>
+            </tr>
+
+            <!-- Laba Bersih -->
+            <tr>
+                <td>Laba Bersih (periode 2024)</td>
+                <td></td>
+                <td>150,000,000</td>
+            </tr>
+
+            <!-- Dividen -->
+            <tr>
+                <td>Pembayaran Dividen</td>
+                <td></td>
+                <td>(50,000,000)</td>
+            </tr>
+
+            <!-- Modal Akhir -->
+            <tr class="total-row">
+                <td>Modal Akhir</td>
+                <td></td>
+                <td>600,000,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        Laporan ini disusun sesuai dengan standar akuntansi keuangan yang berlaku.
+    </div>
+</div>
+</body>
+</html>
+
+Laporan Posisi Keuangan (Neraca)
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laporan Posisi Keuangan (Neraca) PT JAYA ANUGERAH</title>
+<style>
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Warna latar belakang lembut */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0074d9; /* Warna biru */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.report-title {
+    text-align: center;
+    font-size: 24px;
+    color: #0056b3; /* Warna biru lebih tua */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0074d9; /* Gradien biru */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f0f8ff; /* Warna biru muda saat hover */
+}
+
+.total-row {
+    font-weight: bold;
+    background-color: #e6f7ff; /* Warna biru muda */
+    color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <!-- Nama Perusahaan -->
+    <div class="company-name">PT JAYA ANUGERAH</div>
+
+    <!-- Judul Laporan -->
+    <div class="report-title">Laporan Posisi Keuangan (Neraca)<br>Periode 31 Desember 2024</div>
+
+    <!-- Tabel Laporan Neraca -->
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Uraian</th>
+                <th>Jumlah (Rp)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aset -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Aset</td>
+            </tr>
+            <tr>
+                <td>Aset Lancar</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Kas</td>
+                <td></td>
+                <td>200,000,000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Piutang Usaha</td>
+                <td></td>
+                <td>150,000,000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Persediaan Barang</td>
+                <td></td>
+                <td>100,000,000</td>
+            </tr>
+            <tr class="total-row">
+                <td>Total Aset Lancar</td>
+                <td></td>
+                <td>450,000,000</td>
+            </tr>
+            <tr>
+                <td>Aset Tidak Lancar</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Tanah dan Bangunan</td>
+                <td></td>
+                <td>500,000,000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Peralatan</td>
+                <td></td>
+                <td>300,000,000</td>
+            </tr>
+            <tr class="total-row">
+                <td>Total Aset</td>
+                <td></td>
+                <td>1,250,000,000</td>
+            </tr>
+
+            <!-- Kewajiban dan Ekuitas -->
+            <tr>
+                <td colspan="3" style="background-color: #cce5ff; font-weight: bold;">Kewajiban dan Ekuitas</td>
+            </tr>
+            <tr>
+                <td>Kewajiban Lancar</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Utang Usaha</td>
+                <td></td>
+                <td>100,000,000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Utang Bank</td>
+                <td></td>
+                <td>200,000,000</td>
+            </tr>
+            <tr class="total-row">
+                <td>Total Kewajiban Lancar</td>
+                <td></td>
+                <td>300,000,000</td>
+            </tr>
+            <tr>
+                <td>Ekuitas</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Modal</td>
+                <td></td>
+                <td>600,000,000</td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;Laba Ditahan</td>
+                <td></td>
+                <td>350,000,000</td>
+            </tr>
+            <tr class="total-row">
+                <td>Total Kewajiban dan Ekuitas</td>
+                <td></td>
+                <td>1,250,000,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        Laporan ini disusun sesuai dengan standar akuntansi keuangan yang berlaku.
+    </div>
+</div>
+</body>
+</html>
+
+
